@@ -1,0 +1,119 @@
+<head>
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Visual Number System Converter</h1>
+        <p>(up to 255 / FF / 377 / 11111111)</p>
+        <div class="container-container">
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="decimal">Decimal:</label>
+                    <input type="text" id="decimal" placeholder="Enter Decimal">
+                </div>
+                <div class="input-group">
+                    <label for="hexadecimal">Hexadecimal:</label>
+                    <input type="text" id="hexadecimal" placeholder="Enter Hex">
+                </div>
+                <div class="input-group">
+                    <label for="octal">Octal:</label>
+                    <input type="text" id="octal" placeholder="Enter Octal">
+                </div>
+                <div class="input-group">
+                    <label for="binary">Binary:</label>
+                    <input type="text" id="binary" placeholder="Enter Binary">
+                </div>
+            </div>
+
+            <div class="visual-container">
+                <!-- Decimal Visual -->
+                <div class="visual-group visual-decimal">
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×10² </span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×10¹ </span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×10⁰ </span>
+                    </div>
+                </div>
+
+                <!-- Hexadecimal Visual -->
+                <div class="visual-group visual-hex">
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×16¹</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×16⁰</span>
+                    </div>
+                </div>
+
+                <!-- Octal Visual -->
+                <div class="visual-group visual-octal">
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×8²</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×8¹ </span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×8⁰ </span>
+                    </div>
+                </div>
+
+                <!-- Binary Visual -->
+                <div class="visual-group visual-binary">
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2⁷</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2⁶</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2⁵</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2⁴</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2³</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2²</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2¹</span>
+                    </div>
+                    <div class="place">
+                        <input type="text" class="digit-box" readonly>
+                        <span>×2⁰</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<button id="convert-btn">Convert</button>
+<button id="reset-btn">Reset</button>
+
+</div>
+    
+    <script src="script.js"></script>
+</body>
