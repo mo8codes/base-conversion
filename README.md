@@ -1,4 +1,10 @@
 # Visual Number System Converter
+### Live preview:
+https://stingray-app-k8dbw.ondigitalocean.app/ 
+
+or 
+
+https://mo8.hackclub.app/
 
 Compare the difference between:
 - Denary (Base-10 / "normal numbers"), 
@@ -15,7 +21,7 @@ Picture:
 
 If git is installed you can use this command
 ```
-git clone https://github.com/mo8codes/ ./converter
+git clone https://github.com/mo8codes/base-conversion
 ```
 
 - Open index.html using your web browser of choice.
